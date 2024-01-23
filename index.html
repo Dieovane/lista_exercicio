@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista telefônica</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>☎️Lista telefônica</h1>
+        </header>
+        
+        <div class="cabecalho">
+          <form id="formulario-contato">
+            <input type="text" id="nome-contato" required placeholder="Nome do contato" />
+            <input type="number" id="telefone" required placeholder="Telefone" />
+            
+            <button type="submit">Cadastrar</button>
+          </form>
+        </div>
+    
+        <table cellspacing="0">
+            <thead>
+              <tr>
+                <th>
+                  Nome
+                </th>
+                <th>
+                  Telefone
+                </th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <!-- Aqui serão adicionadas as linhas de contatos -->
+            </tbody>
+
+          </table>
+    
+    </div>
+
+    
+    <script src="./main.js"></script>
+</body>
+</html>
